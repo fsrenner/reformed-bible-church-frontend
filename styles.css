@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid #000;
 }
 
 section {
@@ -37,4 +38,9 @@ header .container-fluid {
 
 .jumbotron .jumbotron-content p {
     padding-left: 5px;
+}
+
+.who-we-are .row,
+.sunday-gatherings .row {
+    margin-top: 20px;
 }
