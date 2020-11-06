@@ -1,0 +1,26 @@
+{
+  "name": "reformed-bible-church-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsrenner/reformed-bible-church-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsrenner/reformed-bible-church-frontend/issues"
+  },
+  "homepage": "https://github.com/fsrenner/reformed-bible-church-frontend#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.14"
+  }
+}
