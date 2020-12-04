@@ -42,6 +42,15 @@ header .container-fluid {
     overflow: hidden;
 }
 
+.leadership .jumbotron {
+    margin-top: 80px;
+    background: url('./resources/torch.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    height: 400px;
+    overflow: hidden;
+}
+
 .jumbotron .jumbotron-content {
     display: flex;
     align-content: center;
@@ -62,7 +71,11 @@ header .container-fluid {
 
 .welcome .row,
 .sunday-gatherings .row,
-.what-to-expect .row {
+.what-to-expect .row,
+.mission .row,
+.who-we-are .row,
+.our-beliefs .row,
+.government .row {
     padding-top: 50px;
     display: flex;
 }
@@ -71,6 +84,29 @@ header .container-fluid {
 .sunday-gatherings .row:last-child,
 .what-to-expect .row:last-child {
     padding-bottom: 50px;
+}
+
+.reformed,
+.confessional,
+.covenantal,
+.ordinary,
+.family,
+.elder,
+.deacon {
+    padding-bottom: 10px;
+}
+
+.statements,
+.leadership-spacer {
+    margin-bottom: 50px;
+}
+
+.statements li {
+    margin-left: 30px;
+}
+
+.statements li a {
+    color: #333;
 }
 
 #mapid {
@@ -136,6 +172,21 @@ header .container-fluid {
 footer {
     background-color: #333;
     height: 100px;
+    color: #999;
+}
+
+footer .col-md-2 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer a:hover {
+    color: #999;
 }
 
 @media screen and (min-width : 576px) and (max-width : 706px) {
