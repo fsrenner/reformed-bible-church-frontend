@@ -75,7 +75,8 @@ header .container-fluid {
 .mission .row,
 .who-we-are .row,
 .our-beliefs .row,
-.government .row {
+.government .row,
+.elders .row {
     padding-top: 50px;
     display: flex;
 }
@@ -96,6 +97,18 @@ header .container-fluid {
     padding-bottom: 10px;
 }
 
+.solas {
+    padding-top: 0!important;
+}
+.solas img,
+.statements img {
+    width: 100%;
+}
+
+.blockquote {
+    margin-left: 50px;
+}
+
 .statements,
 .leadership-spacer {
     margin-bottom: 50px;
@@ -108,6 +121,7 @@ header .container-fluid {
 .statements li a {
     color: #333;
 }
+
 
 #mapid {
     height: 400px;
